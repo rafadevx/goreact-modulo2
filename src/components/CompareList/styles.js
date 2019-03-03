@@ -13,6 +13,7 @@ export const Repository = styled.div`
   background: #FFF;
   border-radius: 3px;
   margin: 0 10px;
+  box-shadow: 0px 0px 5px 0px #D8ACE0;
 
   display: flex;
   flex-direction: column;

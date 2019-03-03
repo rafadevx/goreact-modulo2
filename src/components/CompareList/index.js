@@ -26,7 +26,7 @@ const CompareList = ({ repositories }) => (
             <small> issues</small>
           </li>
           <li>
-            {repo.pushed_at}
+            {repo.lastCommit}
             <small> last commit</small>
           </li>
         </ul>
@@ -47,7 +47,7 @@ CompareList.propTypes = {
     stargazers_count: PropTypes.number,
     forks_count: PropTypes.number,
     open_issues_count: PropTypes.number,
-    pushed_at: PropTypes.string,
+    lastCommit: PropTypes.string,
   })).isRequired,
 };
 
