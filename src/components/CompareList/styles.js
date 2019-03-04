@@ -58,4 +58,22 @@ export const Repository = styled.div`
       }
     }
   }
+
+  footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: #63F5B0;
+
+    button {
+      flex: 1;
+      font-size: 16px;
+      text-align: center;
+      color: #FFF;
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+    }
+  }
 `;
